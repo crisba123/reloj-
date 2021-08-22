@@ -10,7 +10,7 @@ def draw() :
 
     ellipse(width/ 2, v, 50, 50)
     fill(232, 5, 24)
-    if ? > height :
+    if v > height :
         v = 0
     else:
         v = map(second(), 0, 59, 0, height)
@@ -20,7 +20,7 @@ def draw() :
 
     ellipse(width/ 2, v, 50, 50)
     fill(245, 25, 25)
-    if ? > height :
+    if v > height :
         v = 0
     else:
         v = map(minute(), 0, 60, 0, height)
@@ -31,7 +31,7 @@ def draw() :
 
     ellipse(width/ 2, v, 50, 50)
     fill(75, 25, 245)
-    if ? > height :
+    if v > height :
         v = 0
     else:
         v = map(hour(), 0, 24, 0, height)
